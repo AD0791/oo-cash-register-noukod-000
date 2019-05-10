@@ -1,7 +1,8 @@
 class CashRegister
-  attr_accessor :the_discount, :keep_track
+  attr_accessor :discount
   def initialize
     # keep it simple
+    @discount = discount
   end
   
 end
